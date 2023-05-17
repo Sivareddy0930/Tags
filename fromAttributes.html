@@ -1,0 +1,36 @@
+<html>
+<head>
+<title>Form  input tag Attributes </title>
+</head>
+<body style="background-color: aquamarine;">
+    <h1>Form input tag attributes for Client side Validations </h1>
+    <!--1)required
+        2)disabled
+        3)placeholder
+        4)value
+        5)min
+        6)max
+        7)minlength
+        8)maxlength
+        9)name
+        10)id
+        11)tabindex
+        12)readonly-->
+        <form>
+            <label for="">Name*:</label>
+            <input type="text" required minlength="6" maxlength="12"><br>
+            <label for="">LastName:</label>
+            <input type="text" disabled><br>
+            <label for="">Email*:</label>
+            <input type="email" required placeholder=" Enter Email" tabindex="1"><br>
+            <label for="">password*:</label>
+            <input type="number" required placeholder="enter password atleast 6 values" min="6" max="9" tabindex="2"><br>
+            <label for="">Countery:</label>
+            <input type="text" value="India"><!--Value attribute provides default value --> <br>
+            <label for="">Company Reg No:</label>
+            <input type="number" value="9866" readonly><br>
+            <input type="submit" value="Login">
+        </form>
+    
+</body>
+</html>
